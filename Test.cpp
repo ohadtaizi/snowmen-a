@@ -9,7 +9,7 @@ TEST_CASE("invalid input"){
  CHECK_THROWS(snowman(111141111));
  CHECK_THROWS(snowman(01114111));
  CHECK_THROWS(snowman(22114111));
-
+ CHECK_THROWS(snowman(55114111));
 }
 TEST_CASE("Snowman test"){
     CHECK(snowman (11114411) =="112");
